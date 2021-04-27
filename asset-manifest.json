@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/coronavirus-novamutum/static/css/main.6cf46b5c.chunk.css",
+    "main.js": "/coronavirus-novamutum/static/js/main.20549fab.chunk.js",
+    "main.js.map": "/coronavirus-novamutum/static/js/main.20549fab.chunk.js.map",
+    "runtime-main.js": "/coronavirus-novamutum/static/js/runtime-main.b4c0d327.js",
+    "runtime-main.js.map": "/coronavirus-novamutum/static/js/runtime-main.b4c0d327.js.map",
+    "static/js/2.5bd231e6.chunk.js": "/coronavirus-novamutum/static/js/2.5bd231e6.chunk.js",
+    "static/js/2.5bd231e6.chunk.js.map": "/coronavirus-novamutum/static/js/2.5bd231e6.chunk.js.map",
+    "index.html": "/coronavirus-novamutum/index.html",
+    "static/css/main.6cf46b5c.chunk.css.map": "/coronavirus-novamutum/static/css/main.6cf46b5c.chunk.css.map",
+    "static/js/2.5bd231e6.chunk.js.LICENSE.txt": "/coronavirus-novamutum/static/js/2.5bd231e6.chunk.js.LICENSE.txt",
+    "static/media/brasao.596d47a5.svg": "/coronavirus-novamutum/static/media/brasao.596d47a5.svg",
+    "static/media/emergencia.18443605.svg": "/coronavirus-novamutum/static/media/emergencia.18443605.svg",
+    "static/media/menu.c21acb3a.svg": "/coronavirus-novamutum/static/media/menu.c21acb3a.svg",
+    "static/media/x.cb990eee.svg": "/coronavirus-novamutum/static/media/x.cb990eee.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b4c0d327.js",
+    "static/js/2.5bd231e6.chunk.js",
+    "static/css/main.6cf46b5c.chunk.css",
+    "static/js/main.20549fab.chunk.js"
+  ]
+}
