@@ -19,7 +19,7 @@ const Menu = () => {
             </div>
             <ul className={click ? "nav-options active" : "nav-options"}>
               <li className="option" onClick={closeMobileMenu}>
-                <Link to="/">HOME</Link>
+                <Link to="/coronavirus-novamutum">HOME</Link>
   
               </li>
               <li className="option" onClick={closeMobileMenu}>

@@ -14,7 +14,7 @@ export class Routes extends Component {
         return (
             <main className="container">
             <Switch>
-                <Route exact path='/' component={Home}/>
+                <Route exact path='/coronavirus-novamutum' component={Home}/>
                 <Route path='/about' component={About}/>
                 <Route path='/contact' component={Contact}/>
             </Switch>
