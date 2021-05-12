@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Covid19 from "./assets/emergencia.svg"
+import Covid19 from "./assets/emergencia.svg";
 import "./css/estilo.css";
 
 export class Home extends Component {
@@ -18,7 +18,6 @@ export class Home extends Component {
                     <div className="column-33">
                         <img src={Covid19} className="App-logo" alt="" />
                     </div>
-
                 </div>
             </div>
 
