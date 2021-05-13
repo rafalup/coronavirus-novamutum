@@ -15,12 +15,9 @@ export class About extends Component {
                     <div className="column">
                         <div className="card">
                             <div className="card-container">
-                                <img src={Aglomeracao} className="pictures-item" alt="" />
+                                <img src={Aglomeracao} className="pictures-item" alt="" width="209px"/>
                            
-                                {/* <p className="subdescription">You should buy this app because lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                   ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi
-                                   ut aliquip ex ea commodo consequat.
-                                </p> */}
+                                <p className="subdescription">Evite Aglomeração.</p>
 
                             </div>
                         </div>
@@ -29,12 +26,9 @@ export class About extends Component {
                     <div className="column">
                         <div className="card">
                             <div className="card-container">
-                               <img src={Mao} className="pictures-item" alt="" />
+                               <img src={Mao} className="pictures-item" alt="" width="209px"/>
 
-                               {/*  <p className="subdescription">You should buy this app because lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                   ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi
-                                   ut aliquip ex ea commodo consequat.
-                                </p> */}
+                                <p className="subdescription">higienize as mãos.</p>
 
                             </div>
                         </div>
@@ -43,12 +37,9 @@ export class About extends Component {
                     <div className="column">
                         <div className="card">
                             <div className="card-container">
-                                <img src={Mascara} className="pictures-item" alt="" />
+                                <img src={Mascara} className="pictures-item" alt="" width="209px"/>
 
-                                {/* <p className="subdescription">You should buy this app because lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                   ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi
-                                   ut aliquip ex ea commodo consequat.
-                                </p> */}
+                                <p className="subdescription">Use máscara.</p>
 
                             </div>
                         </div>

@@ -14,6 +14,7 @@ const Menu = () => {
         <div className="header">
           <div className="logo-nav">
             <div className="logo-container">
+              
               <Logo className="logo" />
   
             </div>
@@ -23,7 +24,7 @@ const Menu = () => {
   
               </li>
               <li className="option" onClick={closeMobileMenu}>
-                <Link to="/About">ABOUT</Link>
+                <Link to="/About">COMO SE PROTEGER</Link>
   
               </li>
               <li className="option" onClick={closeMobileMenu}>

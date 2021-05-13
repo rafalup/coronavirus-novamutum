@@ -39,12 +39,19 @@
     margin-top: 5%;
     text-align: justify;
     font-weight: 300;
+    margin-left: 24.5%;
 }
 
 img {
     margin-left: -30%;
+    /* width: 100%; */
+   
+}
+img .logo-mundo{
+    margin-left: -30%;
     width: 100%;
 }
+
 
 
 @media screen and (max-width: 900px) {
@@ -162,3 +169,4 @@ button:hover {
         
     }
 }
+

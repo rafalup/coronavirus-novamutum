@@ -16,7 +16,7 @@ export class Home extends Component {
                     </div>
 
                     <div className="column-33">
-                        <img src={Covid19} className="App-logo" alt="" />
+                        <img src={Covid19} className="logo-mundo" alt="" />
                     </div>
                 </div>
             </div>
