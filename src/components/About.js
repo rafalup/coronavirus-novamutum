@@ -28,7 +28,7 @@ export class About extends Component {
                             <div className="card-container">
                                <img src={Mao} className="pictures-item" alt="" width="209px"/>
 
-                                <p className="subdescription">higienize as mãos.</p>
+                                <p className="subdescription">Higienize as mãos.</p>
 
                             </div>
                         </div>

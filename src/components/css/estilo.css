@@ -1,7 +1,11 @@
 .container {
     padding: 64px;
 }
-  
+
+.row{
+    margin-left: 5%;
+}
+
 .row:after {
     content: "";
     display: table;
@@ -83,9 +87,7 @@ img .logo-mundo{
         padding: 4px;
     }
 }
-/* .row-x{
-    margin-top: 7%;
-} */
+
 .column {
     float: left;
     width: 33.3%;
