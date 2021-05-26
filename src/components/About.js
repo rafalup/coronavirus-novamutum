@@ -15,7 +15,7 @@ export class About extends Component {
                     <div className="column">
                         <div className="card">
                             <div className="card-container">
-                                <img src={Aglomeracao} className="pictures-item" alt="" width="209px"/>
+                                <img src={Aglomeracao} className="pictures-item" alt="" width="109px"/>
                            
                                 <p className="subdescription">Evite Aglomeração.</p>
 
@@ -26,7 +26,7 @@ export class About extends Component {
                     <div className="column">
                         <div className="card">
                             <div className="card-container">
-                               <img src={Mao} className="pictures-item" alt="" width="209px"/>
+                               <img src={Mao} className="pictures-item" alt="" width="109px"/>
 
                                 <p className="subdescription">Higienize as mãos.</p>
 
@@ -37,7 +37,41 @@ export class About extends Component {
                     <div className="column">
                         <div className="card">
                             <div className="card-container">
-                                <img src={Mascara} className="pictures-item" alt="" width="209px"/>
+                                <img src={Mascara} className="pictures-item" alt="" width="109px"/>
+
+                                <p className="subdescription">Use máscara.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div className="column">
+                        <div className="card">
+                            <div className="card-container">
+                                <img src={Aglomeracao} className="pictures-item" alt="" width="109px"/>
+                           
+                                <p className="subdescription">Evite Aglomeração.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="column">
+                        <div className="card">
+                            <div className="card-container">
+                               <img src={Mao} className="pictures-item" alt="" width="109px"/>
+
+                                <p className="subdescription">Higienize as mãos.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="column">
+                        <div className="card">
+                            <div className="card-container">
+                                <img src={Mascara} className="pictures-item" alt="" width="109px"/>
 
                                 <p className="subdescription">Use máscara.</p>
 

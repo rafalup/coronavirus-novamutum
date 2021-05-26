@@ -16,7 +16,7 @@ const Contact = () => {
     return (
         <div className="container-contact">
 
-            <div className="column-66">
+            <div >
 
                 <form className="form-contact" onSubmit={handleSubmit(enviarContato)}>
                     <h1>Entre em contato 📩</h1>

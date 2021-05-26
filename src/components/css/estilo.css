@@ -4,12 +4,35 @@
 
 .row{
     margin-left: 5%;
+    margin-top: -6%;
 }
 
 .row:after {
     content: "";
     display: table;
     clear: both
+}
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    margin-top: 6%;
+}
+.card {
+    margin: 8px;
+}
+
+
+.card-container {
+    padding: 0 16px;
+}
+
+.card-container::after,
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
   
 .column-66 {
@@ -23,14 +46,15 @@
     width: 33.33333%;
     padding: 20px;
 }
+
   
 .large-font {
-    font-size: 49px;
+    font-size: 40px;
     color: black;
     margin-top: 13%;
     background: linear-gradient(to right, red , yellow);
 }
-  
+
 .description-x{
     text-align: justify;
     margin-top: 5%;
@@ -43,7 +67,7 @@
     margin-top: 5%;
     text-align: justify;
     font-weight: 300;
-    margin-left: 24.5%;
+    margin-left: 15%;
 }
 
 img {
@@ -86,31 +110,11 @@ img .logo-mundo{
     .container {
         padding: 4px;
     }
+    .card-container {
+        padding: 0;
+    }
+    
 }
-
-.column {
-    float: left;
-    width: 33.3%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-    margin-top: 6%;
-}
-.card {
-    margin: 8px;
-}
-
-
-.card-container {
-    padding: 0 16px;
-}
-
-.card-container::after,
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
 
 @media screen and (max-width: 650px) {
     .column {
@@ -119,6 +123,7 @@ img .logo-mundo{
     }
 }
 
+
 /******************************* contact ***********************************/
 .container-contact {
     border-radius: 5px;
@@ -126,8 +131,8 @@ img .logo-mundo{
 }
 
 .form-contact {
-    margin-left: 46%;
-    margin-right: -6%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 input[type=text], select, textarea {
@@ -148,6 +153,9 @@ input[type=submit] {
     cursor: pointer;
 }
 
+textarea{
+    resize: none;
+}
 
 button {
     background-color: #4CAF50;
@@ -172,3 +180,14 @@ button:hover {
     }
 }
 
+/* ----------- iPad Pro ----------- */
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    .row {
+        margin-left: 0%; 
+    }
+    .logo-mundo{
+        width: 129%;
+        margin-left: -30%;
+    }
+    
+}
