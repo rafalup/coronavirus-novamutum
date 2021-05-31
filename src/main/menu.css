@@ -106,3 +106,70 @@
 .mobile-menu {
     display: block;
 }
+
+.app-footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: white;
+    text-align: center;
+    height: 8%;
+    color: black;
+    padding: 53px 0;
+    border-top: 1px solid black;
+    margin-top: 5%;
+}
+
+.app-footer__message {
+    text-align: justify;
+    font-weight: 300;
+}
+
+/* ----------- iPad Pro ----------- */
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    .container {
+        padding: 50px;
+    }
+    .row {
+        margin-left: 0%; 
+    }
+    .subdescription {
+        margin-top: 5%;
+        text-align: justify;
+        font-weight: 300;
+        margin-left: 10%;
+    }
+    .logo-mundo{
+        width: 129%;
+        margin-left: -30%;
+    }
+    .app-footer {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background: white;
+        text-align: center;
+        height: 8%;
+        color: black;
+        padding: 53px 0;
+        border-top: 1px solid black;
+        margin-top: 60%;
+    }
+    
+}
+
+/* ----------- iPad  ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .app-footer {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background: white;
+        text-align: center;
+        height: 8%;
+        color: black;
+        padding: 53px 0;
+        border-top: 1px solid black;
+        margin-top: 60%;
+    }
+}

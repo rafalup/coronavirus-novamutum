@@ -23,7 +23,6 @@
     margin: 8px;
 }
 
-
 .card-container {
     padding: 0 16px;
 }
@@ -47,7 +46,6 @@
     padding: 20px;
 }
 
-  
 .large-font {
     font-size: 40px;
     color: black;
@@ -67,14 +65,14 @@
     margin-top: 5%;
     text-align: justify;
     font-weight: 300;
-    margin-left: 15%;
+    margin-left: 22%;
 }
 
 img {
     margin-left: -30%;
     /* width: 100%; */
-   
 }
+
 img .logo-mundo{
     margin-left: -30%;
     width: 100%;
@@ -107,9 +105,11 @@ img .logo-mundo{
         width: 60%;
         margin-left: 0px;
     }
-    .container {
+    
+    /* .container {
         padding: 4px;
-    }
+    } */
+
     .card-container {
         padding: 0;
     }
